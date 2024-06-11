@@ -22,3 +22,6 @@
 11. **Observations:** Following data preprocessing, three datasets were generated: the original dataset, one with Random Under Sampling (RUS), and another with Random Over Sampling (ROS). The original dataset was more accurate overall, but it was not as good at identifying customers who had quit. Following hyperparameter tuning greatly improved the model's performance, although at the expense of a slight (4% reduction in total accuracy). The churn recall significantly improved, rising to 41%.
 
 The RUS and ROS models performed similar optimization efforts, producing post-tuning accuracy and recall values that were similar. However, the Hyperparameter tuning for ROS model demonstrated a significant progression, attaining 92% accuracy and a significant 97% churn recall. This significant improvement establishes the Hyperparameter tuning for ROS model as the most successful in achieving the desired result.
+
+**Technology Used:**
+Python, Pandas & NumPy, Matplotlib & Seaborn, Scikit-learn
